@@ -102,8 +102,8 @@ background-image:         linear-gradient(top, #DBDBDB, #E2E2E2);
 #pagination a, #pagination i {
 display: inline-block;
 vertical-align: middle;
-width: 22px;
-color: #7D7D7D;
+width: 26px;
+color: #000000;
 text-align: center;
 font-size: 10px;
 padding: 3px 0 2px 0;
@@ -122,11 +122,12 @@ cursor: pointer;
 box-shadow: inset 0 1px 0 0 #FFF, 0 1px 2px rgb(102, 102, 102);
 text-shadow: 0 1px 1px #FFF;
 background-color: #E6E6E6;
-background-image: -webkit-linear-gradient(top, #F3F3F3, #D7D7D7);
+
+/* background-image: -webkit-linear-gradient(top, #F3F3F3, #D7D7D7);
 background-image:    -moz-linear-gradient(top, #F3F3F3, #D7D7D7);
 background-image:     -ms-linear-gradient(top, #F3F3F3, #D7D7D7);
 background-image:      -o-linear-gradient(top, #F3F3F3, #D7D7D7);
-background-image:         linear-gradient(top, #F3F3F3, #D7D7D7);
+background-image:         linear-gradient(top, #F3F3F3, #D7D7D7); */
 }
 #pagination i {
 margin: 0 3px 0 3px;
@@ -134,16 +135,17 @@ margin: 0 3px 0 3px;
 #pagination a.current {
 border: 1px solid #E9E9E9;
 box-shadow: 0 1px 1px #999;
-background-color: #DFDFDF;
-background-image: -webkit-linear-gradient(top, #D0D0D0, #EBEBEB);
+/* background-color: #E6E6E6; */
+background-color: #468cb4;
+/* background-image: -webkit-linear-gradient(top, #D0D0D0, #EBEBEB);
 background-image:    -moz-linear-gradient(top, #D0D0D0, #EBEBEB);
 background-image:     -ms-linear-gradient(top, #D0D0D0, #EBEBEB);
 background-image:      -o-linear-gradient(top, #D0D0D0, #EBEBEB);
-background-image:         linear-gradient(top, #D0D0D0, #EBEBEB);
+background-image:         linear-gradient(top, #D0D0D0, #EBEBEB); */
 }
 
-#pagination a.active {
-  background-color: #4CAF50;
+#pagination a.current.active {
+  background-color: #468cb4;
   color: white;
   border-radius: 5px;
 }

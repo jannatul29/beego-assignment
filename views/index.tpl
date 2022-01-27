@@ -96,7 +96,7 @@
                         <br>
 
                         <div class="row no-gutters">
-                          <div class="col-lg-4 col-md-6">
+                          <div class="col-lg-5 col-md-6">
                             <div id="pagination" style="display: none;"></div>
                           </div>
                           <div class="col-lg-6 col-md-6">
