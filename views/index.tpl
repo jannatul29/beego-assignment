@@ -34,7 +34,15 @@
         <div class="row no-gutters">
             <div class="col-lg-12 col-md-6">
                 <div class="icon-box">
+                  <div class="container" style="background-color: rgb(3, 3, 3); text-align: center; color: white;">
+                  <div class="row no-gutters" >
+                    <div class="col-lg-12 col-md-6" >
+                        <h3>IMAGES/SEARCH</h3>
+                    </div>
+                  </div>
+                </div>
                       <div class="container" style="border-style: ridge;">
+                        
                         <div class="row no-gutters">
                             <div class="col-lg-6 col-md-6">
                                     <label class="text-muted">Order</label><br>
