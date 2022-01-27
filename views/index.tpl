@@ -140,7 +140,7 @@
     border-radius: 4px;
     border: 1px solid #E3E3E3;
     cursor: pointer;
-    box-shadow: inset 0 1px 0 0 #FFF, 0 1px 2px #666;
+    box-shadow: inset 0 1px 0 0 #FFF, 0 1px 2px rgb(102, 102, 102);
     text-shadow: 0 1px 1px #FFF;
     background-color: #E6E6E6;
     background-image: -webkit-linear-gradient(top, #F3F3F3, #D7D7D7);
