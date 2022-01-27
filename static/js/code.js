@@ -248,51 +248,6 @@ Pagination.Init(document.getElementById('pagination'), {
 document.addEventListener('DOMContentLoaded', init, false);
 
 
-    //  page1 =0;
-    //   $(document).on('click', 'a', function () {
-    //     let order = $('#order').val();
-    //     let category_ids = $('#category_ids').val();
-    //     let breed_id = $('#breed').val();
-    //     let limit = $('#limit').val();
-    //     let mime_types = $('#type').val();
-    //     page1 = page1+1; 
-    //     let page2 = $('#page').text();
-    //     console.log(page2);
-    //     $.ajax({
-    //       type: 'GET',
-    //       url: 'http://localhost:8080/data',
-    //       data: {
-    //         "order": order,
-    //         "category_ids": category_ids,
-    //         "breed_id": breed_id,
-    //         "limit": limit,
-    //         "mime_types": mime_types,
-    //         "page": page2,
-
-    //       },
-    //       success: function (response) {
-    //         console.log(order);
-    //         console.log(breed_id);
-    //         console.log(limit);
-            
-    //         let data = response;
-    //         let html_data = "";
-    //         $.each(data, function (key, value) {
-    //           html_data += '<div class="col-md-4" style="padding-bottom: 10px;">',
-    //             //html_data += '<img src="' + value.url + '" width="400" height="400"></img>',
-    //               html_data += '<div style="padding-bottom: 10px; background-image: url(' + value.url + '); background-repeat: no-repeat; height: 400px; background-size: cover;">',
-    //               html_data += '</div>',               
-    //           html_data += '</div>'
-    //         })
-    //         $("#images").html(html_data);
-    //       },
-    //       error: function (error) {
-    //         console.log(error)
-    //       }
-    //     })
-    //   });
-
-
       function pg(value){
         let order = document.getElementById("order").value;
         let category_ids = document.getElementById("category_ids").value;
@@ -336,3 +291,4 @@ document.addEventListener('DOMContentLoaded', init, false);
         
     }
 //console.log(Pagination.page);
+

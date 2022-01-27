@@ -107,7 +107,7 @@
                             </div>
                             <div class="col-lg-6 col-md-6">
                               <label></label><br>
-                               <button type="button" class="btn btn-primary" id="more"><i class="fas fa-redo" style= "padding: 0px 10px 0px 0px;"></i>MORE</button>
+                               <button type="button" class="btn btn-primary btn-block" id="more"><i class="fas fa-redo" style= "padding: 0px 10px 0px 0px;"></i>MORE</button>
                           </div>
                         </div>
                         <br>

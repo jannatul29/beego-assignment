@@ -66,14 +66,7 @@ a:hover {
 .featured-services .icon-box:hover .descrip a {
   color: #5cb874;
 }
-#p1 {
-  font-size: 30px;
-  font-weight: bold;
-}
-#p2 {
-  font-size: 20px;
-  font-weight: bold;
-}
+
 .responsive {
   max-width: 100%;
   height: auto;
