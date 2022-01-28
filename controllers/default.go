@@ -45,7 +45,7 @@ func (c *DataController) Get() {
 	category := c.GetString("category_ids")
 	page := c.GetString("page")
 	req := httplib.Get("https://api.thecatapi.com/v1/images/search")
-	req.Header("x-api-key", `31cf5af0-bb4d-4275-971c-0e161cbdfa0b`)
+	req.Header("x-api-key", `f188c007-ff14-432c-8e1c-632affa8d40c`)
 	req.Param("limit", limit)
 	req.Param("page", page)
 	req.Param("breed_id", breed)
@@ -65,7 +65,7 @@ func (c *DataController) Get() {
 
 func (c *SearchController) Get() {
 	req1 := httplib.Get("https://api.thecatapi.com/v1/breeds")
-	req1.Header("x-api-key", `31cf5af0-bb4d-4275-971c-0e161cbdfa0b`)
+	req1.Header("x-api-key", `f188c007-ff14-432c-8e1c-632affa8d40c`)
 	resp1, err20 := req1.Response()
 	if err20 != nil {
 		log.Fatal(err20)
@@ -76,7 +76,7 @@ func (c *SearchController) Get() {
 	c.Data["B"] = &Bd
 
 	req2 := httplib.Get("https://api.thecatapi.com/v1/categories")
-	req2.Header("x-api-key", `31cf5af0-bb4d-4275-971c-0e161cbdfa0b`)
+	req2.Header("x-api-key", `f188c007-ff14-432c-8e1c-632affa8d40c`)
 	resp2, err21 := req2.Response()
 	if err21 != nil {
 		log.Fatal(err21)
@@ -92,7 +92,7 @@ func (c *SearchController) Get() {
 	category := c.GetString("category_ids")
 	page := c.GetString("page")
 	req := httplib.Get("https://api.thecatapi.com/v1/images/search")
-	req.Header("x-api-key", `31cf5af0-bb4d-4275-971c-0e161cbdfa0b`)
+	req.Header("x-api-key", `f188c007-ff14-432c-8e1c-632affa8d40c`)
 	req.Param("limit", "9")
 	//req.Param("limit", limit)
 	req.Param("page", page)
