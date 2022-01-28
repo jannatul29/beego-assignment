@@ -19,7 +19,7 @@ bee run
 http://localhost:8080/search
 ```
 ### Project details
-This project is an image filtering project from the cat api based on perameters. Given sample screenshoots below.
+This project is an image filtering project from the cat api based on different perameters. Given sample screenshoots below.
 ##### Screenshoot 1
 ![200](https://user-images.githubusercontent.com/69507020/151488946-1f327582-274b-4d5d-a698-b8d78382114d.png)
 ##### Screenshoot 2
