@@ -17,4 +17,5 @@ http://localhost:8080/search
 ```
 ### Project details
 This project is an image filtering project from the cat api based on perameters. Given sample screenshoots below.
+##### Screenshoot
 
