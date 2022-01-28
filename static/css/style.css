@@ -67,10 +67,7 @@ a:hover {
   color: #5cb874;
 }
 
-.responsive {
-  max-width: 100%;
-  height: auto;
-  }
+
 @media all and (max-width: 200px){
   select {
    width: 100%; max-width: 100%;
@@ -93,11 +90,11 @@ padding: 1px 2px 4px 2px;
 border-top: 1px solid #AEAEAE;
 border-bottom: 1px solid #FFFFFF;
 background-color: #DADADA;
-background-image: -webkit-linear-gradient(top, #DBDBDB, #E2E2E2);
+/* background-image: -webkit-linear-gradient(top, #DBDBDB, #E2E2E2);
 background-image:    -moz-linear-gradient(top, #DBDBDB, #E2E2E2);
 background-image:     -ms-linear-gradient(top, #DBDBDB, #E2E2E2);
 background-image:      -o-linear-gradient(top, #DBDBDB, #E2E2E2);
-background-image:         linear-gradient(top, #DBDBDB, #E2E2E2);
+background-image:         linear-gradient(top, #DBDBDB, #E2E2E2); */
 }
 #pagination a, #pagination i {
 display: inline-block;
